@@ -20,10 +20,10 @@
             
             $emp_item = array(
                 'id' => $id,
-                'name' => $EmpName,
-                'surname' => $EmpSurname,
-                'adress' => $EmpAdress,
-                'phonenumber' => $EmpPhone
+                'EmpName' => $EmpName,
+                'EmpSurname' => $EmpSurname,
+                'EmpAdress' => $EmpAdress,
+                'EmpPhone' => $EmpPhone
             );
 
             array_push($emps_arr, $emp_item);
