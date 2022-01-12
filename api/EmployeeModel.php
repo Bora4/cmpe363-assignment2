@@ -23,7 +23,7 @@
         }
 
         public function add() {
-            $query = "INSERT INTO tblEmployee (EmpName, EmpSurname, EmpAdress, EmpPhone) VALUES (?, ?, ?, ?)";
+            $query = "INSERT INTO tblEmployee (EmpName, EmpSurname, EmpAddress, EmpPhone) VALUES (?, ?, ?, ?)";
 
             $params = array();
             $params[0] = $_POST['name'];
