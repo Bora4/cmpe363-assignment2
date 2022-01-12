@@ -21,10 +21,10 @@ async function getapi(url) {
             data.forEach((value, i) => {
                 let emplid = `${value.id}`;
                 let row = table.insertRow(-1);
-                row.insertCell(0).innerHTML = `${value.name}`;
-                row.insertCell(1).innerHTML = `${value.surname}`;
-                row.insertCell(2).innerHTML = `${value.adress}`;
-                row.insertCell(3).innerHTML = `${value.phonenumber}`;      
+                row.insertCell(0).innerHTML = `${value.EmpName}`;
+                row.insertCell(1).innerHTML = `${value.EmpSurname}`;
+                row.insertCell(2).innerHTML = `${value.EmpAdress}`;
+                row.insertCell(3).innerHTML = `${value.EmpPhone}`;      
     })
         }
 

@@ -4,10 +4,10 @@
         private $table = 'tblEmployee';
 
         public $id;
-        public $name;
-        public $surname;
-        public $adress;
-        public $phonenumber;
+        public $EmpName;
+        public $EmpSurname;
+        public $EmpAdress;
+        public $EmpPhone;
 
         public function __construct($db) {
             $this->conn=$db;
@@ -23,7 +23,7 @@
         }
 
         public function add() {
-            $query = "INSERT INTO tblEmployee (name, surname, adress, phonenumber) VALUES (?, ?, ?, ?)";
+            $query = "INSERT INTO tblEmployee (EmpName, EmpSurname, EmpAdress, EmpPhone) VALUES (?, ?, ?, ?)";
 
             $params = array();
             $params[0] = $_POST['name'];
@@ -39,7 +39,7 @@
 
         public function filter() {
 
-            $query = "SELECT * FROM tblEmployee WHERE name = ?";
+            $query = "SELECT * FROM tblEmployee WHERE EmpName = ?";
 
             $params = array();
 
