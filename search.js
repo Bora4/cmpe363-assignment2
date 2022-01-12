@@ -32,7 +32,7 @@ async function getapi(url) {
     xhr.send()
     }
 
-var api_url = "http://localhost:8080/groupa/api/search.php";
+var api_url = "http://localhost:80/groupa/api/search.php";
 
 console.log("mark4");
 
