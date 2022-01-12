@@ -22,7 +22,7 @@
                 'id' => $id,
                 'EmpName' => $EmpName,
                 'EmpSurname' => $EmpSurname,
-                'EmpAdress' => $EmpAdress,
+                'EmpAddress' => $EmpAddress,
                 'EmpPhone' => $EmpPhone
             );
 

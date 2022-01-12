@@ -19,7 +19,6 @@ async function getapi(url) {
             console.log(data);
             
             data.forEach((value, i) => {
-                let emplid = `${value.id}`;
                 let row = table.insertRow(-1);
                 row.insertCell(0).innerHTML = `${value.EmpName}`;
                 row.insertCell(1).innerHTML = `${value.EmpSurname}`;
