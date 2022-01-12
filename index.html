@@ -31,7 +31,7 @@
           console.log(header)
           var api_url;
           if (header != ''){
-            api_url = "http://localhost:80/groupa/api/filter.php";
+            api_url = "./api/filter.php";
             $.ajax({
             url: api_url,
             method: "GET",
@@ -58,7 +58,7 @@
            
           });
           } else {
-            api_url = "http://localhost:80/groupa/api/search.php";
+            api_url = "./api/search.php";
             getapi(api_url)
           }
           
